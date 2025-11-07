@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-
 import 'package:socialfeedplus_mohammedshahir/features/create_post/controllers/post_controller.dart';
 
 void showImagePickerSheet(

@@ -10,6 +10,8 @@ import 'package:socialfeedplus_mohammedshahir/features/auth/controllers/auth_con
 import 'package:socialfeedplus_mohammedshahir/features/feed/controllers/feed_controller.dart';
 import 'package:socialfeedplus_mohammedshahir/features/feed/models/post_model.dart';
 
+
+
 class CreatePostController extends GetxController {
   final FeedController feedController = Get.find<FeedController>();
   final AuthController authController = Get.find<AuthController>();

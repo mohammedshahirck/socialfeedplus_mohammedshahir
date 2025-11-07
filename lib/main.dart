@@ -6,8 +6,8 @@ import 'package:socialfeedplus_mohammedshahir/core/services/api_services.dart';
 import 'package:socialfeedplus_mohammedshahir/core/theme/app_theme.dart';
 import 'package:socialfeedplus_mohammedshahir/core/theme/theme_manager.dart';
 import 'package:socialfeedplus_mohammedshahir/features/auth/controllers/auth_controller.dart';
-import 'package:socialfeedplus_mohammedshahir/features/create_post/models/comment_model.dart';
 import 'package:socialfeedplus_mohammedshahir/features/feed/models/post_model.dart';
+import 'package:socialfeedplus_mohammedshahir/features/post_detail_page/models/comment_model.dart';
 
 
 void main() async {

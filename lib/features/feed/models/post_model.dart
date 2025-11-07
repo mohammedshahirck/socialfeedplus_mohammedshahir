@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:socialfeedplus_mohammedshahir/features/create_post/models/comment_model.dart';
-
+import 'package:socialfeedplus_mohammedshahir/features/post_detail_page/models/comment_model.dart';
 
 
 part 'post_model.g.dart'; // required for Hive codegen

@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:socialfeedplus_mohammedshahir/core/theme/app_colors.dart';
-import 'package:socialfeedplus_mohammedshahir/features/create_post/models/comment_model.dart';
 import 'package:socialfeedplus_mohammedshahir/features/feed/models/post_model.dart';
+import 'package:socialfeedplus_mohammedshahir/features/post_detail_page/models/comment_model.dart';
+
 
 class FeedController extends GetxController {
   late Box<PostModel> postBox;

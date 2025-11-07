@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'package:socialfeedplus_mohammedshahir/features/create_post/controllers/post_controller.dart';
 import 'package:socialfeedplus_mohammedshahir/features/create_post/widgets/image_picker_sheet.dart';
 import 'package:socialfeedplus_mohammedshahir/shared/widgets/custom_appbar.dart';
 import 'package:socialfeedplus_mohammedshahir/shared/widgets/custom_gradient_button.dart';
 import 'package:socialfeedplus_mohammedshahir/shared/widgets/outline_border.dart';
+
 
 class CreatePostScreen extends GetView<CreatePostController> {
   const CreatePostScreen({super.key});

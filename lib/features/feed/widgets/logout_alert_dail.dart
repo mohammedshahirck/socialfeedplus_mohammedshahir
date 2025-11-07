@@ -6,7 +6,6 @@ import 'package:socialfeedplus_mohammedshahir/core/theme/app_colors.dart';
 import 'package:socialfeedplus_mohammedshahir/features/auth/controllers/auth_controller.dart';
 
 
-
 void showLogoutDialog(VoidCallback onConfirm) {
   if (Platform.isIOS) {
     showCupertinoDialog(

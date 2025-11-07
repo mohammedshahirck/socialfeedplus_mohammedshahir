@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:socialfeedplus_mohammedshahir/core/theme/app_colors.dart';
 
+import 'package:socialfeedplus_mohammedshahir/core/theme/app_colors.dart';
 
 class AuthController extends GetxController {
   static AuthController get to => Get.find<AuthController>();
