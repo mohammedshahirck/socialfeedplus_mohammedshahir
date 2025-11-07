@@ -4,6 +4,6 @@ import 'package:socialfeedplus_mohammedshahir/features/feed/controllers/feed_con
 
 class FeedBinding extends Bindings {
   @override  void dependencies() {
-    Get.put(FeedController());
+    Get.lazyPut(() => FeedController());
   }
 }

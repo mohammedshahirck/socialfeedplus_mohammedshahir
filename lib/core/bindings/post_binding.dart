@@ -4,6 +4,6 @@ import 'package:socialfeedplus_mohammedshahir/features/create_post/controllers/p
 class PostBinding extends Bindings {
   @override
   void dependencies() {
-    Get.put(CreatePostController());
+    Get.lazyPut(() => CreatePostController());
   }
 }
